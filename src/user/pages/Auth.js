@@ -99,11 +99,12 @@ const switchModeHandler = () => {
                    {isLoginMode ? 'LOGIN' : 'SIGN UP'}
                 </Button>
 
-                <Button onClick={ switchModeHandler } inverse> 
-                    SWITCH TO { isLoginMode ? 'SIGN UP' : 'LOGIN'} 
-                </Button>
+                
               
             </form>
+            <Button onClick={ switchModeHandler } inverse> 
+                    SWITCH TO { isLoginMode ? 'SIGN UP' : 'LOGIN'} 
+                </Button>
         </Card>
     )
 }
